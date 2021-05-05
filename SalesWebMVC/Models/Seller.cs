@@ -38,16 +38,6 @@ namespace SalesWebMVC.Models
 
         public double TotalSales(DateTime initial, DateTime final)
         {
-            //double totalSales = 0;
-            //foreach(var sr in Sales)
-            //{
-            //    if (sr.Date >= initial && sr.Date <= final)
-            //    {
-            //        totalSales += sr.Amount;
-            //    }
-            //}
-            //return totalSales;
-
             return Sales.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr => sr.Amount);
         }
     }
