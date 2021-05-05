@@ -25,7 +25,7 @@ namespace SalesWebMVC.Data
                 Department d3 = new Department(3, "Fashion");
                 Department d4 = new Department(4, "Books");
 
-                Seller s1 = new Seller(1, "Stephan Güter", "stephan@gmail.com", new DateTime(1991, 11, 23), 1000.0, d1);
+                Seller s1 = new Seller(1, "Stephan Black", "stephan@gmail.com", new DateTime(1991, 11, 23), 1000.0, d1);
                 Seller s2 = new Seller(2, "Maria Green", "maria@gmail.com", new DateTime(1979, 12, 31), 3500.0, d2);
                 Seller s3 = new Seller(3, "Alex Grey", "alex@gmail.com", new DateTime(1988, 1, 15), 2200.0, d1);
                 Seller s4 = new Seller(4, "Martha Red", "martha@gmail.com", new DateTime(1993, 11, 30), 3000.0, d4);
